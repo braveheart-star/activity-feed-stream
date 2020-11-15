@@ -11,6 +11,7 @@ import { AddActivityPageComponent } from './add-activity-page/add-activity-page.
 import { TopNavBarComponent } from './top-nav-bar/top-nav-bar.component';
 import { GetFeedPageComponent } from './get-feed-page/get-feed-page.component';
 import { StreamFetchFeedComponent } from './stream-fetch-feed/stream-fetch-feed.component';
+import { JwtGeneratorPageComponent } from './jwt-generator-page/jwt-generator-page.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +21,8 @@ import { StreamFetchFeedComponent } from './stream-fetch-feed/stream-fetch-feed.
     AddActivityPageComponent,
     GetFeedPageComponent,
     TopNavBarComponent,
-    GetFeedPageComponent,
-    StreamFetchFeedComponent
+    StreamFetchFeedComponent,
+    JwtGeneratorPageComponent
   ],
   imports: [
     BrowserModule,
